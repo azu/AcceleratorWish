@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'AcceleratorWish' target in the 'AcceleratorWish' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+
+#endif
