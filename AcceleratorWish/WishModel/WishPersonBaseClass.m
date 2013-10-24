@@ -29,8 +29,7 @@ NSString *const kWishPersonBaseClassAge = @"age";
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {
     // // [<CLASS NAME> alloc] -> [self alloc]
-    WishPersonBaseClass *instance = [[self alloc] initWithDictionary:dict];
-    return instance;
+    return [[self alloc] initWithDictionary:dict];
 }
 
 - (instancetype)initWithDictionary:(NSDictionary *)dict

@@ -11,15 +11,17 @@
 		17B5C0E6EA5DD5A66F0CD058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C776CBD3A720320C99E8 /* Foundation.framework */; };
 		17B5C21A22E0FBEB2389496E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C0EF576B4A38A76AD201 /* SenTestingKit.framework */; };
 		17B5C2E3AAAE2221CE1E8BF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CA3BD4F3F704D24F2F5F /* UIKit.framework */; };
+		17B5C3853652937D79679ACE /* InheritancePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C235C9560B1C15BF2332 /* InheritancePerson.m */; };
 		17B5C44E445F121AFBF23FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C776CBD3A720320C99E8 /* Foundation.framework */; };
 		17B5C5F7048A160A017E2914 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C3927BCEF8480711C776 /* InfoPlist.strings */; };
+		17B5C6E0E771E3E0483ADD3A /* InheritancePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C235C9560B1C15BF2332 /* InheritancePerson.m */; };
+		17B5C6E987D2550BC41EFF6B /* WishInheritancePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C100D123744A1B6175A2 /* WishInheritancePerson.m */; };
 		17B5C71B1CC443254E68ED28 /* PersonBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C664A32A53C4A91EE4F7 /* PersonBaseClass.m */; };
+		17B5C76AF520C36EA667A963 /* WishInheritancePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C100D123744A1B6175A2 /* WishInheritancePerson.m */; };
 		17B5C786A41838AE5F18FE9B /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CE62BC5E427024E3D2F8 /* example.json */; };
 		17B5C8990F59D1F8367E1928 /* WishPersonBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C06C6AD30CA37E743D32 /* WishPersonBaseClass.m */; };
 		17B5C9395A2B73BA854C6474 /* WishPersonBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C06C6AD30CA37E743D32 /* WishPersonBaseClass.m */; };
 		17B5CC332FA400267979BC66 /* PersonBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C664A32A53C4A91EE4F7 /* PersonBaseClass.m */; };
-		17B5CC796BB15721DB34D6BD /* InheritancePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C970F223A4E4FF12EA28 /* InheritancePerson.m */; };
-		17B5CD6866A7F3459C10D40B /* InheritancePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C970F223A4E4FF12EA28 /* InheritancePerson.m */; };
 		17B5CF1A31276DA82AE03817 /* AcceleratorWishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CB8503B0E2E50C1F06A2 /* AcceleratorWishTests.m */; };
 /* End PBXBuildFile section */
 
@@ -49,18 +51,20 @@
 		17B5C06C6AD30CA37E743D32 /* WishPersonBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishPersonBaseClass.m; sourceTree = "<group>"; };
 		17B5C0A4EEA83A94C167EA27 /* AcceleratorWish-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcceleratorWish-Prefix.pch"; sourceTree = "<group>"; };
 		17B5C0EF576B4A38A76AD201 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		17B5C100D123744A1B6175A2 /* WishInheritancePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishInheritancePerson.m; sourceTree = "<group>"; };
+		17B5C235C9560B1C15BF2332 /* InheritancePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InheritancePerson.m; sourceTree = "<group>"; };
 		17B5C38DEE34E69B592BCF48 /* PersonBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonBaseClass.h; sourceTree = "<group>"; };
-		17B5C5268C550D2AAC375365 /* InheritancePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InheritancePerson.h; sourceTree = "<group>"; };
+		17B5C58DCD8922F9E20CFC99 /* WishInheritancePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishInheritancePerson.h; sourceTree = "<group>"; };
 		17B5C664A32A53C4A91EE4F7 /* PersonBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonBaseClass.m; sourceTree = "<group>"; };
 		17B5C69211C3E17C698DB77F /* WishPersonBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishPersonBaseClass.h; sourceTree = "<group>"; };
 		17B5C6B3A48F7563F3602994 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17B5C776CBD3A720320C99E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17B5C8BE95D8BAEDA48E4CC9 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
-		17B5C970F223A4E4FF12EA28 /* InheritancePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InheritancePerson.m; sourceTree = "<group>"; };
 		17B5CA3BD4F3F704D24F2F5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		17B5CB150B9B8D1C93C1782D /* AcceleratorWishTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcceleratorWishTests.h; sourceTree = "<group>"; };
 		17B5CB838B620F1E4EBF822A /* AcceleratorWishTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceleratorWishTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B5CB8503B0E2E50C1F06A2 /* AcceleratorWishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcceleratorWishTests.m; sourceTree = "<group>"; };
+		17B5CD2895B2213E40364860 /* InheritancePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InheritancePerson.h; sourceTree = "<group>"; };
 		17B5CDEE954F11138007A7C8 /* AcceleratorWishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AcceleratorWishTests-Info.plist"; sourceTree = "<group>"; };
 		17B5CE62BC5E427024E3D2F8 /* example.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = example.json; sourceTree = "<group>"; };
 		17B5CF7B421E1F4D65A8DED6 /* libAcceleratorWish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAcceleratorWish.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,11 +93,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17B5C0238BF63622D60FBC17 /* InheritModel */ = {
+		17B5C0EDE58C66D81849CE36 /* InheritModel */ = {
 			isa = PBXGroup;
 			children = (
-				17B5C970F223A4E4FF12EA28 /* InheritancePerson.m */,
-				17B5C5268C550D2AAC375365 /* InheritancePerson.h */,
+				17B5C100D123744A1B6175A2 /* WishInheritancePerson.m */,
+				17B5C58DCD8922F9E20CFC99 /* WishInheritancePerson.h */,
+			);
+			path = InheritModel;
+			sourceTree = "<group>";
+		};
+		17B5C23543F6E21E0CDB75CD /* InheritModel */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C235C9560B1C15BF2332 /* InheritancePerson.m */,
+				17B5CD2895B2213E40364860 /* InheritancePerson.h */,
 			);
 			path = InheritModel;
 			sourceTree = "<group>";
@@ -123,7 +136,6 @@
 				17B5CE62BC5E427024E3D2F8 /* example.json */,
 				17B5CF8CBED1CF9FD3A561D1 /* JSONAcceleratorGen */,
 				17B5C59F12D5AAC974E20677 /* WishModel */,
-				17B5C0238BF63622D60FBC17 /* InheritModel */,
 			);
 			path = AcceleratorWish;
 			sourceTree = "<group>";
@@ -143,6 +155,7 @@
 			children = (
 				17B5C06C6AD30CA37E743D32 /* WishPersonBaseClass.m */,
 				17B5C69211C3E17C698DB77F /* WishPersonBaseClass.h */,
+				17B5C0EDE58C66D81849CE36 /* InheritModel */,
 			);
 			path = WishModel;
 			sourceTree = "<group>";
@@ -181,6 +194,7 @@
 			children = (
 				17B5C38DEE34E69B592BCF48 /* PersonBaseClass.h */,
 				17B5C664A32A53C4A91EE4F7 /* PersonBaseClass.m */,
+				17B5C23543F6E21E0CDB75CD /* InheritModel */,
 			);
 			path = JSONAcceleratorGen;
 			sourceTree = "<group>";
@@ -286,7 +300,8 @@
 				17B5CF1A31276DA82AE03817 /* AcceleratorWishTests.m in Sources */,
 				17B5C71B1CC443254E68ED28 /* PersonBaseClass.m in Sources */,
 				17B5C9395A2B73BA854C6474 /* WishPersonBaseClass.m in Sources */,
-				17B5CD6866A7F3459C10D40B /* InheritancePerson.m in Sources */,
+				17B5C3853652937D79679ACE /* InheritancePerson.m in Sources */,
+				17B5C6E987D2550BC41EFF6B /* WishInheritancePerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +311,8 @@
 			files = (
 				17B5CC332FA400267979BC66 /* PersonBaseClass.m in Sources */,
 				17B5C8990F59D1F8367E1928 /* WishPersonBaseClass.m in Sources */,
-				17B5CC796BB15721DB34D6BD /* InheritancePerson.m in Sources */,
+				17B5C6E0E771E3E0483ADD3A /* InheritancePerson.m in Sources */,
+				17B5C76AF520C36EA667A963 /* WishInheritancePerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
